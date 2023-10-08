@@ -56,3 +56,16 @@ def com_elem(list_1, list_2):
 
 my_list_2 = [5, 8, 9, 12, 3]
 print(com_elem(my_list, my_list_2))
+
+
+def get_num_pow(list_1, degree):
+    list_new = []
+    for num in list_1:
+        if degree <= 1:
+            return num
+        list_new.append(num ** 3)
+
+    return list_new
+
+
+print(get_num_pow(my_list, 3))
