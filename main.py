@@ -47,3 +47,12 @@ def remove_num(list_1, num_remove):
 
 num_to_remove = int(input("Enter num: "))
 print(remove_num(my_list, num_to_remove))
+
+
+def com_elem(list_1, list_2):
+    new_list = set(list_2).intersection(set(list_1))
+    return list(new_list)
+
+
+my_list_2 = [5, 8, 9, 12, 3]
+print(com_elem(my_list, my_list_2))
