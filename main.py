@@ -10,3 +10,10 @@ def mult_nums(list_1):
 
 
 print(f"Mult_nums: {mult_nums(my_list)}")
+
+
+def min_num(list_1):
+    return min(list_1)
+
+
+print(f"Min_num: {min_num(my_list)}")
