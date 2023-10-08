@@ -17,3 +17,19 @@ def min_num(list_1):
 
 
 print(f"Min_num: {min_num(my_list)}")
+
+
+def count_primes(list_1):
+    count = 0
+    for num in list_1:
+        if num > 1:
+            for n in range(2, num):
+                if num % n == 0:
+                    break
+            else:
+                count += 1
+    return count
+
+
+prime_count = count_primes(my_list)
+print(f"Prime_count: {prime_count}")
