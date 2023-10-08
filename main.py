@@ -33,3 +33,17 @@ def count_primes(list_1):
 
 prime_count = count_primes(my_list)
 print(f"Prime_count: {prime_count}")
+
+
+def remove_num(list_1, num_remove):
+    count_num = 0
+    for num in list_1.copy():
+        if num == num_remove:
+            list_1.remove(num)
+            count_num += 1
+
+    return count_num
+
+
+num_to_remove = int(input("Enter num: "))
+print(remove_num(my_list, num_to_remove))
