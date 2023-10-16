@@ -1,4 +1,4 @@
-print("1.Mult_nums/n2.Min_num/n3.Prime_count/n4.Remove_num/n5.Com_elem/n6.Get_num_pow")
+print("1.Mult_nums\n2.Min_num\n3.Prime_count\n4.Remove_num\n5.Com_elem\n6.Get_num_pow")
 user_select = int(input("Enter menu item: "))
 
 my_list = [1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10, 11]
